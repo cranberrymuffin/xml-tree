@@ -1,0 +1,55 @@
+/* Container for XML input, ensures proper vertical spacing */
+.xml-input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly; /* Evenly space elements */
+  height: 100%; /* Take full height of the viewport */
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Headline Styles */
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0, 255, 0, 0.5);
+  font-size: 2.5rem;
+  color: #00b140; /* Brat green */
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 10px rgba(0, 255, 0, 0.5);
+  position: relative;
+}
+
+/* Textarea Styles */
+textarea {
+  width: 80vw; /* 80% of the viewport width */
+  height: 40vh; /* 40% of the viewport height */
+  font-family: 'Courier New', monospace;
+  font-size: 14px;
+  padding: 15px;
+  border-radius: 12px;
+  border: 2px solid #00b140; /* Brat green border */
+  background-color: #fff;
+  color: #008000;
+  box-shadow: 0 4px 10px rgba(0, 255, 0, 0.3);
+  resize: vertical;
+  transition: all 0.3s ease;
+  margin-bottom: 20px; /* Space between textarea and button */
+}
+
+/* Button Styles */
+.parse-button {
+  background-color: #00b140; /* Brat green */
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.parse-button:hover {
+  background-color: #008e2f; /* Darker green on hover */
+}

@@ -1,0 +1,43 @@
+/* App.css */
+.tree-container {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+#treeWrapper {
+  height: 90%;
+  overflow: hidden;
+}
+
+.node-circle {
+  fill: #00b140;
+}
+
+.node-text {
+  font-size: 12px;
+  font-family: Arial, sans-serif;
+}
+
+.node-attribute-text {
+  font-size: 10px;
+  font-family: Arial, sans-serif;
+  fill: black;
+}
+
+.parse-button {
+  margin-top: 20px; /* Add margin to space the button from the tree */
+  padding: 12px 25px;
+  background-color: #00b140; /* Brat green */
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  display: inline-block; /* Ensure button is inline */
+  text-align: center;
+}
+
+.parse-button:hover {
+  background-color: #008e2f; /* Darker green on hover */
+}
