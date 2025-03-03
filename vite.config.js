@@ -4,7 +4,7 @@ import restart from 'vite-plugin-restart';
 
 export default {
   root: 'src/',
-  base: '/xml-visualizer/',
+  base: '/xml-tree/',
   publicDir: '../public/',
   plugins: [
     // Restart server on static/public file change
